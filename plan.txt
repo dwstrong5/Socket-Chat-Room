@@ -1,0 +1,17 @@
+Write you assignment plan here. Refer to the assignment PDF for details. Do not change this file name.
+
+
+1) Write a one paragraph summary of the program in your own words.  What is being asked of you?  What will you implement in this assignment?
+
+We are being tasked with designing a chatroom-like application. We will create a server that's capable of supporting up to 255 observers and 255 participants, and will facilitate communication between all active users. In addition to the server, we will design both the observer and participant roles for the chatroom. Unlike common chat rooms where the observer and participant is a unified file, we will design each of these separately. The observer will solely keep the chat room up-to-date with real-time updates of user activity (new user joins the chat, a user leaves the chat, or someone posts a message). The participants are responsible for updating the chat, should a user want to send a message. Because these two are separated, they will be paired by a common username which will be negotiated with the server upon connecting.
+
+2) What you anticipate being the most challenging aspect of the assignment?
+
+The most difficult aspect that immediately comes to mind is becoming familiar with the use of select() as opposed to send/recv. Another aspect is just the correlation and real-time updates for each observer participating in the chat. We found that the coordination and flow of data with each client in project 2 to be rather tricky. Now that we're designing a chat program that can support up to 255 "pairs", this will be even more challenging.
+
+3) Give a list of at least three resources you plan to draw from if you get stuck on something.
+
+The three resources that have been beneficial for us and will likely continue to be utilized throughout this project are the textbook, linux man pages, and Shri. Fortunately, we've been able to overcome all encountered roadblocks thus far by relying on those resources and we feel confident that our streak will continue.
+
+4) What is your plan for meeting to finish this program (e.g. ``every Monday, Wednesday and Friday from 3pm-5pm until it's done.).
+Project 1 seemed to be our most coordinated effort for paired programming. We ran into a bit of a bind towards the due date for project 2, largely due to conflicting times with other classes. As it stands, Sean and I are both available similar days and the majority of the weekend. It'll be imparitive that we get an early start on this assignment so we don't run into the same time-crunch as we did with project 2.

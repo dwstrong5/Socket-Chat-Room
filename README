@@ -1,0 +1,12 @@
+This program is a functional chat room application, written in C using socket programming. This program
+supports up to 255 unique users (identified by a unique username that is negotiated upon connection to
+the server). Each user will need to run a participant and an observer client for chat room input and 
+output, respectively. These will be paired by the unique username mentioned above.
+
+Initialization is as follows:
+  1) Execute Makefile
+  2) Initialize the server by running "./server participant_port observer_port
+  3) Initialize a pariticpant by running "./participant server_ip participant_port"
+  4) Initialize an observer by running "./observer server_ip observer_port"
+  
+  Repeat steps 3-4 for each participant/observer pair.
